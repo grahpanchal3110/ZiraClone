@@ -12,7 +12,10 @@ export const metadata = {
   title: "Zira Clone",
   description: "Project Management Tool",
   icons: {
-    icon: "/jira.svg",
+    icon: [
+      { url: "/jira.svg" }, // ICO for older browsers
+      { url: "/jira.svg", type: "image/svg+xml" }, // SVG for modern browsers
+    ],
   },
 };
 
