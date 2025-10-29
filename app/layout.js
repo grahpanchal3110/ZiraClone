@@ -11,12 +11,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Zira Clone",
   description: "Project Management Tool",
-  icons: {
-    icon: [
-      { url: "/jira.svg" }, // ICO for older browsers
-      { url: "/jira.svg", type: "image/svg+xml" }, // SVG for modern browsers
-    ],
-  },
 };
 
 export default async function RootLayout({ children }) {
