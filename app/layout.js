@@ -10,7 +10,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Zira Clone",
-  description: "Project Manangement Tool",
+  description: "Project Management Tool",
+  icons: {
+    icon: "/jira.svg",
+  },
 };
 
 export default async function RootLayout({ children }) {

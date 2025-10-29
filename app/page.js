@@ -40,7 +40,7 @@ export default function Home() {
 
       <section className="container mx-auto py-20 text-center">
         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold gradient-title pb-6 flex flex-col">
-          Stremline Your Workflow <br />
+          Streamline Your Workflow <br />
           <span className="flex mx-auto gap-3 sm:gap-4 items-center">
             with{""}
             <Image
